@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.1.0](https://github.com/grafana/shared-workflows/compare/v1.0.0...v1.1.0) (2024-08-16)
+
+
+### Features
+
+* add release-please action ([#183](https://github.com/grafana/shared-workflows/issues/183)) ([0c6afbf](https://github.com/grafana/shared-workflows/commit/0c6afbfb9e7f4af01cf3cfed7535eae33943fe46))
+* add setup-conftest action ([#212](https://github.com/grafana/shared-workflows/issues/212)) ([6a252ee](https://github.com/grafana/shared-workflows/commit/6a252ee32cc3109533ce51789842d3ed78e6abf2))
+* modify openapi spec at client generation time ([#204](https://github.com/grafana/shared-workflows/issues/204)) ([fc84de9](https://github.com/grafana/shared-workflows/commit/fc84de984d84586aaa4c05c88620553d1473f735))
+* **push-to-gar-docker:** replace underscores with hyphens in repo names ([#199](https://github.com/grafana/shared-workflows/issues/199)) ([a67842b](https://github.com/grafana/shared-workflows/commit/a67842be4f21319c80f40041d7bc02a26d8722bc))
+* **push-to-gcs:** allow setting 'predefinedAcl' on objects when uploading ([#193](https://github.com/grafana/shared-workflows/issues/193)) ([97e6191](https://github.com/grafana/shared-workflows/commit/97e6191605de61d528f08aa85fa2f9ee2dfac355))
+
+
+### Bug Fixes
+
+* add repository_name input to push-to-gar-docker ([#198](https://github.com/grafana/shared-workflows/issues/198)) ([264a3f2](https://github.com/grafana/shared-workflows/commit/264a3f2a5d4f756715d5c1f3b37f627689e70ab1))
+* **argo-lint:** fallback to hardcode action repo ([#213](https://github.com/grafana/shared-workflows/issues/213)) ([c663230](https://github.com/grafana/shared-workflows/commit/c6632305ef48112fe6b1aad26ecf2b32a743bda9))
+* generate go client in a subdir ([#208](https://github.com/grafana/shared-workflows/issues/208)) ([335e261](https://github.com/grafana/shared-workflows/commit/335e261108a1299ee06227acad2e487118e3110e))
+* **push-gar-doc:** fix typo ([#200](https://github.com/grafana/shared-workflows/issues/200)) ([5d89d95](https://github.com/grafana/shared-workflows/commit/5d89d954c8bc3d7664e576b86bfdbaa1302a1ca5))
+* **setup-argo:** use amd64 as arch ([#217](https://github.com/grafana/shared-workflows/issues/217)) ([7a0ba14](https://github.com/grafana/shared-workflows/commit/7a0ba14ec0596297d38441c7829cbe8eb30fb036))
+* **setup-conftest:** normalize runner.os ([#216](https://github.com/grafana/shared-workflows/issues/216)) ([318d33e](https://github.com/grafana/shared-workflows/commit/318d33e1f443b2f511a21593f1945e9e026c86d0))
+* **trigger-argo-workflow:** use setup-argo action ([#219](https://github.com/grafana/shared-workflows/issues/219)) ([47a1c7f](https://github.com/grafana/shared-workflows/commit/47a1c7f387daf4ef593b82cb6ac2abca0cd7cf73))
+
 ## 1.0.0 (2024-07-15)
 
 ### Features
