@@ -1,5 +1,40 @@
 # Changelog
 
+## [1.1.0](https://github.com/fcjack/shared-workflows/compare/aws-auth-v1.0.1...aws-auth-v1.1.0) (2025-04-16)
+
+
+### 🎉 Features
+
+* **aws-auth:** add workflow_ref claim ([#227](https://github.com/fcjack/shared-workflows/issues/227)) ([c0e3298](https://github.com/fcjack/shared-workflows/commit/c0e329819eb62c2cfb5611a56289a2017066b1e7))
+
+
+### 🐛 Bug Fixes
+
+* **aws-auth:** make script executable ([#485](https://github.com/fcjack/shared-workflows/issues/485)) ([dfa5e58](https://github.com/fcjack/shared-workflows/commit/dfa5e58bc01ab959770bb57a434c63fceb9a0783))
+* **aws-auth:** no such file for resolve-aws-region.sh ([#492](https://github.com/fcjack/shared-workflows/issues/492)) ([84db55e](https://github.com/fcjack/shared-workflows/commit/84db55e4f41ce257b365f8236ea6b2ce849da236))
+* **aws-auth:** support checked out action mode ([#484](https://github.com/fcjack/shared-workflows/issues/484)) ([67c54c7](https://github.com/fcjack/shared-workflows/commit/67c54c781187c4cf4c03a937b2029e03e82c19e4))
+
+
+### 📝 Documentation
+
+* **aws auth:** Mention `event_name` in passed claims ([#144](https://github.com/fcjack/shared-workflows/issues/144)) ([28a818b](https://github.com/fcjack/shared-workflows/commit/28a818be69fe2838d577205e53c9e8c411e68e20))
+* **aws-auth:** use ref instead of workflow_ref ([#456](https://github.com/fcjack/shared-workflows/issues/456)) ([f0dd348](https://github.com/fcjack/shared-workflows/commit/f0dd3480fa3e657d741dd9e8d9b999cfb61fc713))
+* fix wrong aws-auth reference in readme ([#731](https://github.com/fcjack/shared-workflows/issues/731)) ([c0ae660](https://github.com/fcjack/shared-workflows/commit/c0ae660365599f4f1a8550c941e08d4a6de268e5))
+
+
+### 🤖 Continuous Integration
+
+* add workflow that lints shell scripts with ShellCheck ([#147](https://github.com/fcjack/shared-workflows/issues/147)) ([570898e](https://github.com/fcjack/shared-workflows/commit/570898eda6d4fb6c0e4d45a24bf9681c89a12aa6))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update catnekaise/cognito-idpool-auth action to v1.0.2 ([#246](https://github.com/fcjack/shared-workflows/issues/246)) ([a4c9c10](https://github.com/fcjack/shared-workflows/commit/a4c9c10b1ed2b863ab85e1f655fc8dc960382271))
+* **main:** release aws-auth 1.0.0 ([#415](https://github.com/fcjack/shared-workflows/issues/415)) ([07bc4c7](https://github.com/fcjack/shared-workflows/commit/07bc4c7b19c27345ee8945e09f780f112db114f2))
+* **main:** release aws-auth 1.0.1 ([#580](https://github.com/fcjack/shared-workflows/issues/580)) ([abb283a](https://github.com/fcjack/shared-workflows/commit/abb283a39f2ddc434391d0e5d9a994f74bf20e35))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/fcjack/shared-workflows/issues/794)) ([a7bc536](https://github.com/fcjack/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+* update readme when a new release is available ([#548](https://github.com/fcjack/shared-workflows/issues/548)) ([9bf9163](https://github.com/fcjack/shared-workflows/commit/9bf9163126c44247bcee6b6b9390eb488f9ead53))
+
 ## [1.0.1](https://github.com/grafana/shared-workflows/compare/aws-auth-v1.0.0...aws-auth-v1.0.1) (2025-01-29)
 
 
